@@ -26,7 +26,7 @@ public class GetAPITest extends TestBase{
 		baseURL = prop.getProperty("URL");
 		apiURL = prop.getProperty("serviceURL");
 		url = baseURL + apiURL;
-		System.out.println("Get service URL--->"+url);
+		System.out.println("Get service URL----->"+url);
 	}
 	
 	@Test
